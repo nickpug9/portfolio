@@ -1,13 +1,114 @@
+html {
+  --color-blue-dark: #3f3697;
+  --color-blue-medium: #344fa1;
+  --color-blue-light: #3d84b8;
+  --color-blue-light-80: #3d84b880;
+
+  --color-cream: #f0ebcc;
+  --color-background: #24366b;
+  --color-gray: #3a3a3a;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgba(0, 0, 0, 0.9);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+h1 {
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.slide-enter,
+.slide-exit {
+  transition: transform 1000ms ease-out;
+}
+
+.slide-enter {
+  transform: translateX(100%);
+}
+
+.slide-enter.slide-enter-active {
+  transform: translateX(0%);
+}
+
+.slide-exit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: translateX(0%);
+}
+
+.slide-exit-active {
+  transform: translateX(-100%);
+}
+.nav-bar {
+  z-index: 50;
+  flex: 0 1 auto;
+}
+
+.logo-image {
+  width: 100px;
+}
+.home {
+  overflow: hidden;
+  flex: 1 1 auto;
+}
+.circles {
+  /* background: red; */
+  width: 125px;
+  height: 100px;
+  display: block;
+  /* margin-left: -15%; */
+  z-index: 1;
+  position: absolute;
+}
+.group-1 {
+  left: -100px;
+}
+.group-2 {
+  left: 100vw;
+}
+.circle {
+  display: block;
+  width: 50%;
+  height: 50%;
+  border-radius: 50px;
+}
+.c1 {
+  background: var(--color-blue-dark);
+  margin-left: -20%;
+}
+.c2 {
+  background: var(--color-blue-medium);
+  margin-top: -25%;
+  margin-left: 50%;
+  width: 80%;
+  height: 80%;
+}
+.c3 {
+  background: var(--color-cream);
+  width: 60%;
+  height: 60%;
+  margin-top: -20%;
+}
+.content {
+  background: var(--color-blue-light-80);
+  z-index: 2;
+  border-radius: 25px;
+}
+.arrow {
+  color: white;
+}
+.arrow:hover {
+  color: rgba(0, 0, 0, 0.4);
 }
