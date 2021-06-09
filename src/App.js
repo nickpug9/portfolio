@@ -8,8 +8,8 @@ import {
   Route,
   Link,
   withRouter,
+  HashRouter,
 } from "react-router-dom";
-
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import Nav from "./Nav.js";
 
@@ -35,14 +35,14 @@ const AnimatedSwitch = withRouter(({ location }) => (
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <Nav />
         <div className="wrapper position-relative">
           <AnimatedSwitch />
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
