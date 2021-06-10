@@ -1,5 +1,6 @@
-// import Navbar from "react-bootstrap/Navbar";
-// import Button from "react-bootstrap/Button";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import Button from "react-bootstrap/Button";
 
 import React, { useState } from "react";
 import logo from "./logo.svg";
@@ -13,7 +14,7 @@ function NewComponent(props) {
   // };
   return (
     <div>
-      {/* <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar bg="dark" variant="dark" expand="lg">
         <Navbar.Brand href="/">
           <img src={logo} className="img-fluid logo-image" alt="Logo" />
         </Navbar.Brand>
@@ -31,7 +32,7 @@ function NewComponent(props) {
             </Link>
           </Nav>
         </Navbar.Collapse>
-      </Navbar> */}
+      </Navbar>
 
       {/* <nav className="navbar navbar-expand-lg navbar-dark bg-dark position-relative">
           <a className="navbar-brand" href="/">
