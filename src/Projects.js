@@ -5,26 +5,74 @@ import "./App.css";
 function Projects(props) {
   return (
     // Render a Thumbnail component
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <div className="rows">
         <h1 className="col-4 offset-4 text-center">Projects</h1>
-        <h5 className="text-white px-3 col-md-8 offset-md-2">
+        <h5 className="text-white px-3 col-md-6 offset-md-3">
           The following is a list of the most notable projects I have recently
           worked on.
         </h5>
         <Thumbnail
           link="https://intense-fjord-76142.herokuapp.com/"
-          image="https://res.cloudinary.com/nickpug/image/upload/v1623103732/Personal/YelpCamp-screenshot_etywua.jpg"
+          showLink="true"
+          image="https://res.cloudinary.com/nickpug/image/upload/q_70/v1623103732/Personal/YelpCamp-screenshot_etywua.jpg"
           title="YelpCamp"
           category="App"
-          description="gnfdlngs"
+          description="YelpCamp is a fully functional RESTful CRUD app that behaves similar to Yelp. Visitors of the app are able to register their email to create an account (via validated form submissions) where they can add to the directory of listed campgrounds or leave a review on campgrounds others have submitted. The app was built using Node, Express, and Mongoose. Mongoose is a NoSQL database, however, this app also applies relational database functionality. One notable feature is the integration of MapBox api. Using a database of cities from around the world, the app matches the coordinates to the location field of the submitted campground(s) and pins it on the MapBox map. Other skills and technologies used are as follows: Cloudinary images, ejs, Bootstrap, database seeding, routing, and caching/sessions."
         />
-        {/* <Thumbnail
-        link="/twitter"
-        image="http://twitter-image-url.jpg"
-        title="Twitter Newsfeed"
-        category="Mobile App"
-      /> */}
+
+        <Thumbnail
+          link="https://intense-fjord-76142.herokuapp.com/"
+          showLink="true"
+          image="https://res.cloudinary.com/nickpug/image/upload/q_70/v1623428702/Personal/pokedex-screenshot_bwonvq.jpg"
+          title="Pokedex"
+          category="App"
+          description="A website that uses StimulusJs and Animejs that emulates a virtual Pokedex.
+Pokedex emulates a fully functional virtual pokedex of the gen one pokemon. Built using StimulusJs this app uses various functions from AnimeJs to animate motions.
+"
+        />
+        <Thumbnail
+          link="https://intense-fjord-76142.herokuapp.com/"
+          showLink="true"
+          image="https://res.cloudinary.com/nickpug/image/upload/q_70/v1623428702/Personal/pokedex-screenshot_bwonvq.jpg"
+          title="Custom Wordpress Theme"
+          category="Theme"
+          description="I have built a custom wordpress theme that utilizes Timber, TailwindCSS, and StimulusJs. The theme focuses on features that allow most of the content to be controlled in Wordpress’s admin. By implementing custom templates and ACF, every page/page type is able to have its own unique layouts and functionality. The theme is very beginner friendly. By using StimulusJs, which links Javascript components to the html, beginners are able to focus on html and use controllers to enhance it. Much of the backend tasks are automated by Gulp, including minification, and legacy. CI/CD pipelines are also set up."
+        />
+
+        <Thumbnail
+          link="https://intense-fjord-76142.herokuapp.com/"
+          showLink="true"
+          image="https://res.cloudinary.com/nickpug/image/upload/q_70/v1623428702/Personal/pokedex-screenshot_bwonvq.jpg"
+          title="MLB Marketplace"
+          category="app"
+          description="This app is designed to help users earn the most stubs in MLB: The Show. IT retrieves data from MLB: The Show’s servers and lists them. After the api calls, the app calculates the biggest profit margins of each card. Users can sort through the lists and see which cards are the best to flip."
+        />
+
+        <Thumbnail
+          link="https://intense-fjord-76142.herokuapp.com/"
+          showLink="true"
+          image="https://res.cloudinary.com/nickpug/image/upload/q_70/v1623428702/Personal/pokedex-screenshot_bwonvq.jpg"
+          title="Pricing Panel"
+          category="UX design"
+          description="Pricing Panel is a basic responsive UX design of a tiered pricing panel. This is one of the first projects I learned how to make using Bootstrap."
+        />
+        <Thumbnail
+          link="https://intense-fjord-76142.herokuapp.com/"
+          showLink="true"
+          image="https://res.cloudinary.com/nickpug/image/upload/q_70/v1623428702/Personal/pokedex-screenshot_bwonvq.jpg"
+          title="Museum of Candy"
+          category="UX Design"
+          description="Museum of candy is a simple responsive landing page. This also is one of the first projects that introduced me to bootstrap."
+        />
+        <Thumbnail
+          link="https://intense-fjord-76142.herokuapp.com/"
+          showLink="false"
+          image="https://res.cloudinary.com/nickpug/image/upload/q_70/v1623428702/Personal/pokedex-screenshot_bwonvq.jpg"
+          title="Picture Car Guys"
+          category="App"
+          description="Picture Car Guys is a directory of car listings to be used as movie props. Users would create accounts and use form submissions for listings. This was built using a car directory Wordpress theme before I learned backend programming and was my first experience in freelance work. The site is not currently live."
+        />
       </div>
     </div>
   );

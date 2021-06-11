@@ -28,7 +28,7 @@ h1 {
   padding-bottom: 1rem;
 }
 .bg {
-  width: 100%;
+  width: 100vw;
   position: absolute;
   left: 0;
   top: 0;
@@ -205,6 +205,16 @@ h1 {
 }
 .home-link:hover {
   color: rgb(30, 30, 30);
+}
+.read-less {
+  height: 92px !important;
+  position: relative;
+}
+.read-less:before {
+  content: "...";
+  display: block;
+  position: absolute;
+  top: 100%;
 }
 footer {
   z-index: 50;

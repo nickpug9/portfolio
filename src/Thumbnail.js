@@ -1,20 +1,42 @@
-import React from "react"; // Import the Component component from React
-// import { Link } from "react-router-dom"; // Import the Link component
+import React, { useState } from "react"; // Import the Component component from React
 import "./App.css";
 
 function Thumbnail(props) {
+  // const [isActive, setActive] = useState("false");
+  // const [buttonText, setButtonText] = useState("Show More");
+  // const ToggleClass = () => {
+  //   setActive(!isActive);
+  //   if (buttonText === "Show More") {
+  //     setButtonText("Show Less");
+  //   } else {
+  //     setButtonText("Show More");
+  //   }
+  // };
+  const ShowLink = () => {
+    console.log(props.showLink);
+    if (props.showLink === "true") {
+      return (
+        <a href={props.link} className="btn btn-success px-4 mb-3">
+          Visit Site
+        </a>
+      );
+    }
+  };
   return (
-    <div className="card project col-md-8 offset-md-2 mb-5">
+    <div className="card project col-md-6 offset-md-3 mb-5">
       <div class="card-body">
         <h3 className="card-title">{props.title}</h3>
 
         <div className="project-category card-subtitle text-muted">
           {props.category}
         </div>
-        <p class="card-text">{props.description}</p>
-        <a href={props.link} className="project-link">
-          Visit Site
-        </a>
+        <p class="card-text read-less overflow-hidden mb-5">
+          {props.description}
+        </p>
+        {/* <button className="btn btn-info d-block  px-3 mb-3" id="readMore">
+          {buttonText}
+        </button> */}
+        {ShowLink()}
         <a href={props.link}>
           <div className="project-image">
             <img src={props.image} className="w-100" alt="Project" />
