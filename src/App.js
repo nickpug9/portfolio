@@ -14,6 +14,7 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 import Nav from "./Nav.js";
 
 import Home from "./Home.js";
+import Resume from "./Resume.js";
 
 import Projects from "./Projects.js";
 // import Articles from "./Articles.js";
@@ -21,9 +22,11 @@ import About from "./About.js";
 import "./App.css";
 
 const AnimatedSwitch = withRouter(({ location }) => (
-  <TransitionGroup>
+  <TransitionGroup className="switch">
     <CSSTransition key={location.key} classNames="slide" timeout={1000}>
       <Switch location={location}>
+        <Route path="/resume" component={Resume} />
+
         <Route path="/projects" component={Projects} />
         {/* <Route path="/articles" component={Articles} /> */}
         <Route path="/about" component={About} />
@@ -44,12 +47,10 @@ function App() {
           />
         </div>
         <Nav />
-        <div className="wrapper position-relative">
-          <AnimatedSwitch />
-        </div>
-        <footer class="footer bg-dark py-3 mt-auto">
+        <AnimatedSwitch />
+        <footer class="footer bg-dark py-1 mt-auto">
           <div class="container">
-            <span class="text-muted">&copy; YelpCamp 2021</span>
+            <span class="text-muted">&copy; Nick Pugliesi</span>
           </div>
         </footer>
       </div>

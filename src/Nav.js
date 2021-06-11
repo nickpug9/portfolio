@@ -13,14 +13,14 @@ function NewComponent(props) {
   //   setActive(!isActive);
   // };
   return (
-    <div>
+    <div className="menu">
       <Navbar bg="dark" variant="dark" expand="lg">
-        <Navbar.Brand href="/">
+        {/* <Navbar.Brand href="/">
           <img src={logo} className="img-fluid logo-image" alt="Logo" />
-        </Navbar.Brand>
+        </Navbar.Brand> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="m-auto">
             <Link to="/" className="nav-link">
               Home
             </Link>
@@ -29,6 +29,9 @@ function NewComponent(props) {
             </Link>
             <Link to="/projects" className="nav-link">
               Projects
+            </Link>
+            <Link to="/resume" className="nav-link">
+              Resume
             </Link>
           </Nav>
         </Navbar.Collapse>

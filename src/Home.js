@@ -9,8 +9,24 @@ import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
 
 function NewComponent(props) {
   return (
-    <div className="home container">
-      <div className="row  mx-0 d-flex justify-center">
+    <div className="content-wrapper">
+      <div className="content py-3 text-white d-flex flex-column align-items-center mt-5">
+        <h5 className="text-center">Hello, I am</h5>
+        <h1>Nick Pugliesi</h1>
+        <h4>Web Developer</h4>
+        <Link to="/about" className="arrow">
+          <h5>
+            Learn More About What I Do
+            <span>
+              <FontAwesomeIcon icon={faArrowAltCircleRight} />
+            </span>
+          </h5>
+        </Link>
+        <a href="" className="github home-link link-dark">
+          Visit My Github Page <FontAwesomeIcon icon={faGithubSquare} />
+        </a>
+      </div>
+      <div className="circles-container">
         <motion.div
           animate={{ x: "120vw", y: 200, rotate: 360 }}
           transition={{ ease: "linear", repeat: Infinity, duration: 24 }}
@@ -27,8 +43,8 @@ function NewComponent(props) {
             className="c2 circle"
           ></motion.div>
           <motion.div
-            animate={{ scale: 0.1 }}
-            transition={{ repeat: Infinity, duration: 22 }}
+            animate={{ scale: 0.6 }}
+            transition={{ repeat: Infinity, duration: 24 }}
             className="c3 circle"
           ></motion.div>
         </motion.div>
@@ -48,32 +64,34 @@ function NewComponent(props) {
             className="c2 circle"
           ></motion.div>
           <motion.div
-            animate={{ scale: 0.1 }}
-            transition={{ repeat: Infinity, duration: 18 }}
+            animate={{ scale: 0.6 }}
+            transition={{ repeat: Infinity, duration: 20 }}
             className="c3 circle"
           ></motion.div>
         </motion.div>
-        <div className="content-wrapper col-12">
-          <div className="content col-sm-6 offset-sm-3 position-relative py-3 text-white text-center">
-            <h5>Hello, I am</h5>
-            <h1>Nick Pugliesi</h1>
-            <h4>Web Developer</h4>
-            <h5>
-              Learn More About What I Do{" "}
-              <span>
-                <Link to="/about" className="arrow">
-                  <FontAwesomeIcon icon={faArrowAltCircleRight} />
-                </Link>
-              </span>
-            </h5>
-
-            <a href="" className="github link-dark">
-              Visit My Github Page <FontAwesomeIcon icon={faGithubSquare} />
-            </a>
-          </div>
-        </div>
       </div>
     </div>
+    // <div className="wrapper">
+    //   <h1>About</h1>
+
+    //   <div className="content py-3 text-white position-absolute">
+    //     <h5 className="text-center">Hello, I am</h5>
+    //     <h1>Nick Pugliesi</h1>
+    //     <h4>Web Developer</h4>
+    //     <Link to="/about" className="arrow">
+    //       <h5>
+    //         Learn More About What I Do{" "}
+    //         <span>
+    //           <FontAwesomeIcon icon={faArrowAltCircleRight} />
+    //         </span>
+    //       </h5>
+    //     </Link>
+
+    //     <a href="" className="github home-link link-dark">
+    //       Visit My Github Page <FontAwesomeIcon icon={faGithubSquare} />
+    //     </a>
+    //   </div>
+    // </div>
   );
 }
 
