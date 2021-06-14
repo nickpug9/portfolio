@@ -4,6 +4,9 @@ html {
   --color-blue-light: #3d84b8;
   --color-blue-light-90: #3d84b890;
 
+  --color-yellow: #fcc12f;
+  --color-yellow-dark: #b5871e;
+
   --color-cream: #f0ebcc;
   --color-background: #24366b;
   --color-gray: #3a3a3a;
@@ -225,6 +228,45 @@ h1 {
 }
 .profile {
   max-width: 300px;
+}
+.app-link {
+  color: var(--color-yellow);
+}
+.app-link:hover {
+  color: var(--color-yellow-dark);
+}
+
+.resume h3 {
+  color: var(--color-blue-light);
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.resume h5 {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+.resume h6 {
+  margin-left: 0.8rem;
+}
+.resume p {
+  font-size: 0.9rem;
+}
+.resume-body__left {
+  width: 60%;
+}
+.resume-body__right {
+  width: 40%;
+  padding-left: 10%;
+}
+.subject-modal {
+  display: none;
+}
+.subject:hover .subject-modal {
+  display: block;
+  position: absolute;
+  background: var(--color-blue-light);
+  border-radius: 15px;
 }
 footer {
   z-index: 50;

@@ -2,21 +2,25 @@ import React from "react";
 
 function NewComponent(props) {
   return (
-    <div className="container-fluid">
-      <div className="row w-100 d-flex text-white">
+    <div className="resume container-fluid">
+      <div className="row col-12 col-md-10 offset-md-1 d-flex text-white">
         <h1 className="w-100 text-center">Resume</h1>
         <div className="resume-header__left w-50">
           <h2>Nick Pugliesi</h2>
           <h4>Web Developer</h4>
         </div>
         <div className="resume-header__right w-50">
-          <h5 className="text-right">Pittsburgh, PA</h5>
-          <h5 className="text-right">nickpug9@gmail.com</h5>
+          <h5 className="text-right text-white">Pittsburgh, PA</h5>
+          <h5 className="text-right text-white">nickpug9@gmail.com</h5>
           <h5 className="text-right">
-            <a href="tel:2679872413">(267) 987-2413</a>
+            <a href="tel:2679872413" className="app-link">
+              (267) 987-2413
+            </a>
           </h5>
           <h5 className="text-right">
-            <a href="https://github.com/nickpug9">github.com/nickpug9</a>
+            <a href="https://github.com/nickpug9" className="app-link">
+              github.com/nickpug9
+            </a>
           </h5>
         </div>
         <div className="resume-body d-flex">
@@ -25,9 +29,11 @@ function NewComponent(props) {
             <h5>Personal Projects - on GitHub</h5>
             <p>
               Various projects where I learned to use bootstrap, js, react, and
-              custom wordpress theme development -
-              <a href="https://github.com/nickpug9">🔗 github.com/nickpug9</a>
-            </p>{" "}
+              custom wordpress theme development - 🔗
+              <a className="app-link" href="https://github.com/nickpug9">
+                github.com/nickpug9
+              </a>
+            </p>
             <h5>YelpCamp</h5>
             <p>
               Built a responsive Yelp type RESTful app that allows users to Add
@@ -41,7 +47,7 @@ function NewComponent(props) {
               input commands such as ADD, DELETE, GROUP, SORT, or VIEW The
               project focuses on using read, write, and seek functions to store
               and retrieve the data with proper validation (e.x. No student can
-              have two classes at the same time).{" "}
+              have two classes at the same time).
             </p>
             <h5>Lockheed Martin Case Competition</h5>
             <p>
@@ -75,28 +81,58 @@ function NewComponent(props) {
               and projects as well as grading the weekly/monthly assignments.
             </p>
           </div>
-          <div className="resumne-body__right">
+          <div className="resume-body__right">
             <h3 className="uppercase">Education</h3>
             <h5>BSc in Computer Science Pennsylvania State University</h5>
             <h5>
-              {" "}
               Minor in Entrepreneurship/Innovation Pennsylvania State University
             </h5>
-            <h3>SKILLS/TECHNOLOGIES</h3>
-            <h5>HTML</h5> <h5> CSS</h5>{" "}
-            <p> (TailwindCSS, Bootstrap, Flexbox, Bulba, SCSS)</p>{" "}
-            <h5> JavaScript</h5> <p> (AJAX, ES6, Node, Express, Stimulus)</p>
-            <h5>Git</h5> <p> (Gitlab, Github, Bitbucket)</p>
-            <h5> CI/CD</h5> <h5> Wordpress</h5> <h5> Express</h5>
-            <h5> NoSQL</h5>
-            <p> (MongoDB)</p> <h5> Cloud</h5>
-            <p> (Heroku, Kinsta, AWS(Lightsail))</p>
-            <h5> REST APIs</h5>
-            <h5> Deployment</h5>
-            <p> (CI/CD, SFTP)</p>
-            <h5> SEO</h5> <p> (Yoast, Structured Data, SEMRush)</p>
-            <h5>DNS</h5> <p> (Cloudflare)</p>
-            <h3> COMPUTER SCIENCE COURSES</h3>
+            <h3 className="lh-1 m-0">Skills/</h3>
+            <h3 className="lh-1"> Technologies</h3>
+            <h6>HTML</h6>
+            <div className="subject">
+              <button className="btn btn-link app-link"> CSS</button>
+              <p className="subject-modal p-3">
+                (TailwindCSS, Bootstrap, Flexbox, Bulba, SCSS)
+              </p>
+            </div>
+            <div className="subject">
+              <button className="btn btn-link app-link"> JavaScript</button>
+              <p className="subject-modal p-3">
+                (AJAX, ES6, Node, Express, Stimulus)
+              </p>
+            </div>
+            <div className="subject">
+              <button className="btn btn-link app-link">Git</button>
+              <p className="subject-modal p-3">(Gitlab, Github, Bitbucket)</p>
+            </div>
+            <h6> CI/CD</h6> <h6> Wordpress</h6> <h6> Express</h6>
+            <div className="subject">
+              <button className="btn btn-link app-link">NoSQL</button>
+              <p className="subject-modal p-3">(MongoDB)</p>
+            </div>
+            <div className="subject">
+              <button className="btn btn-link app-link">Cloud</button>
+              <p className="subject-modal p-3">
+                (Heroku, Kinsta, AWS(Lightsail))
+              </p>
+            </div>
+            <h6> REST APIs</h6>
+            <div className="subject">
+              <button className="btn btn-link app-link">Deployment</button>
+              <p className="subject-modal p-3">(CI/CD, SFTP)</p>
+            </div>
+            <div className="subject">
+              <button className="btn btn-link app-link">SEO</button>
+              <p className="subject-modal p-3">
+                (Yoast, Structured Data, SEMRush)
+              </p>
+            </div>
+            <div className="subject">
+              <button className="btn btn-link app-link">DNS</button>
+              <p className="subject-modal p-3">(Cloudflare)</p>
+            </div>
+            <h3> Compute Science Courses</h3>
             <h5> Comp Organization and Design</h5>
             <h5> Data Structures and Algorithms</h5>
             Program Language Concepts <h5>Intro to System Programming</h5>
@@ -106,7 +142,7 @@ function NewComponent(props) {
             <h5>PSUkulele – Vice President</h5>
             <h5>State Development Klub (SDK)</h5>
             <h5>Security Risk and Analysis</h5>
-            <h3>CERTIFICATIONS</h3>
+            <h3>Certifications</h3>
             <h5> Microsoft Word and PowerPoint 2010</h5>{" "}
           </div>
         </div>
