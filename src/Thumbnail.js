@@ -24,13 +24,13 @@ function Thumbnail(props) {
   };
   return (
     <div className="card project col-md-6 offset-md-3 mb-5">
-      <div class="card-body">
+      <div className="card-body">
         <h3 className="card-title">{props.title}</h3>
 
         <div className="project-category card-subtitle text-muted">
           {props.category}
         </div>
-        <p class="card-text read-less overflow-hidden mb-5">
+        <p className="card-text read-less overflow-hidden mb-5">
           {props.description}
         </p>
         {/* <button className="btn btn-info d-block  px-3 mb-3" id="readMore">

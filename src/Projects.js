@@ -22,7 +22,7 @@ function Projects(props) {
         />
 
         <Thumbnail
-          link="https://intense-fjord-76142.herokuapp.com/"
+          link="http://s868494329.onlinehome.us/"
           showLink="true"
           image="https://res.cloudinary.com/nickpug/image/upload/q_70/v1623428702/Personal/pokedex-screenshot_bwonvq.jpg"
           title="Pokedex"
@@ -32,43 +32,43 @@ Pokedex emulates a fully functional virtual pokedex of the gen one pokemon. Buil
 "
         />
         <Thumbnail
-          link="https://intense-fjord-76142.herokuapp.com/"
+          link="https://github.com/nickpug9/nickpug"
           showLink="true"
-          image="https://res.cloudinary.com/nickpug/image/upload/q_70/v1623428702/Personal/pokedex-screenshot_bwonvq.jpg"
+          image=""
           title="Custom Wordpress Theme"
           category="Theme"
           description="I have built a custom wordpress theme that utilizes Timber, TailwindCSS, and StimulusJs. The theme focuses on features that allow most of the content to be controlled in Wordpress’s admin. By implementing custom templates and ACF, every page/page type is able to have its own unique layouts and functionality. The theme is very beginner friendly. By using StimulusJs, which links Javascript components to the html, beginners are able to focus on html and use controllers to enhance it. Much of the backend tasks are automated by Gulp, including minification, and legacy. CI/CD pipelines are also set up."
         />
 
         <Thumbnail
-          link="https://intense-fjord-76142.herokuapp.com/"
+          link=""
           showLink="true"
-          image="https://res.cloudinary.com/nickpug/image/upload/q_70/v1623428702/Personal/pokedex-screenshot_bwonvq.jpg"
+          image=""
           title="MLB Marketplace"
           category="app"
           description="This app is designed to help users earn the most stubs in MLB: The Show. IT retrieves data from MLB: The Show’s servers and lists them. After the api calls, the app calculates the biggest profit margins of each card. Users can sort through the lists and see which cards are the best to flip."
         />
 
         <Thumbnail
-          link="https://intense-fjord-76142.herokuapp.com/"
+          link="https://nickpug9.github.io/pricing-panel/"
           showLink="true"
-          image="https://res.cloudinary.com/nickpug/image/upload/q_70/v1623428702/Personal/pokedex-screenshot_bwonvq.jpg"
+          image=""
           title="Pricing Panel"
           category="UX design"
           description="Pricing Panel is a basic responsive UX design of a tiered pricing panel. This is one of the first projects I learned how to make using Bootstrap."
         />
         <Thumbnail
-          link="https://intense-fjord-76142.herokuapp.com/"
+          link="https://nickpug9.github.io/museum-of-candy/"
           showLink="true"
-          image="https://res.cloudinary.com/nickpug/image/upload/q_70/v1623428702/Personal/pokedex-screenshot_bwonvq.jpg"
+          image=""
           title="Museum of Candy"
           category="UX Design"
           description="Museum of candy is a simple responsive landing page. This also is one of the first projects that introduced me to bootstrap."
         />
         <Thumbnail
-          link="https://intense-fjord-76142.herokuapp.com/"
+          link=""
           showLink="false"
-          image="https://res.cloudinary.com/nickpug/image/upload/q_70/v1623428702/Personal/pokedex-screenshot_bwonvq.jpg"
+          image=""
           title="Picture Car Guys"
           category="App"
           description="Picture Car Guys is a directory of car listings to be used as movie props. Users would create accounts and use form submissions for listings. This was built using a car directory Wordpress theme before I learned backend programming and was my first experience in freelance work. The site is not currently live."

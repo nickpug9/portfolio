@@ -216,6 +216,16 @@ h1 {
   position: absolute;
   top: 100%;
 }
+/* .about .row {
+  padding-left: 10%;
+  padding-right: 10%;
+} */
+.about p {
+  line-height: 2;
+}
+.profile {
+  max-width: 300px;
+}
 footer {
   z-index: 50;
   height: 6vh;
