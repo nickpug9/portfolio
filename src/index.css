@@ -53,6 +53,9 @@ h1 {
 .bg img {
   width: 100%;
 }
+.hide {
+  display: none;
+}
 .slide-enter,
 .slide-exit {
   transition: transform 1000ms ease-out;
@@ -235,6 +238,19 @@ h1 {
 .app-link:hover {
   color: var(--color-yellow-dark);
 }
+.app-nav {
+  display: flex;
+  flex-direction: column !important;
+  margin-left: auto;
+  text-align: end;
+}
+@media (min-width: 768px) {
+  .app-nav {
+    margin: auto;
+    text-align: center;
+    flex-direction: row !important;
+  }
+}
 
 .resume h3 {
   color: var(--color-blue-light);
@@ -252,13 +268,36 @@ h1 {
 .resume p {
   font-size: 0.9rem;
 }
+.resume-header__left,
+.resume-header__right {
+  width: 100%;
+}
+@media (min-width: 480px) {
+  .resume-header__left {
+    width: 50%;
+  }
+  .resume-header__right {
+    width: 50%;
+    text-align: end;
+  }
+}
 .resume-body__left {
-  width: 60%;
+  width: 100%;
 }
 .resume-body__right {
-  width: 40%;
-  padding-left: 10%;
+  width: 100%;
+  /* padding-left: 10%; */
 }
+@media (min-width: 768px) {
+  .resume-body__left {
+    width: 60%;
+  }
+  .resume-body__right {
+    width: 40%;
+    padding-left: 10%;
+  }
+}
+
 .subject-modal {
   display: none;
 }

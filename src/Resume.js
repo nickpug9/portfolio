@@ -3,27 +3,27 @@ import React from "react";
 function NewComponent(props) {
   return (
     <div className="resume container-fluid">
-      <div className="row col-12 col-md-10 offset-md-1 d-flex text-white">
+      <div className="row col-10 col-md-10 mx-auto d-flex flex-wrap text-white">
         <h1 className="w-100 text-center">Resume</h1>
-        <div className="resume-header__left w-50">
+        <div className="resume-header__left">
           <h2>Nick Pugliesi</h2>
           <h4>Web Developer</h4>
         </div>
-        <div className="resume-header__right w-50">
-          <h5 className="text-right text-white">Pittsburgh, PA</h5>
-          <h5 className="text-right text-white">nickpug9@gmail.com</h5>
-          <h5 className="text-right">
+        <div className="resume-header__right">
+          <h5 className=" text-white">Pittsburgh, PA</h5>
+          <h5 className=" text-white">nickpug9@gmail.com</h5>
+          <h5>
             <a href="tel:2679872413" className="app-link">
               (267) 987-2413
             </a>
           </h5>
-          <h5 className="text-right">
+          <h5>
             <a href="https://github.com/nickpug9" className="app-link">
               github.com/nickpug9
             </a>
           </h5>
         </div>
-        <div className="resume-body d-flex">
+        <div className="resume-body d-flex flex-wrap">
           <div className="resume-body__left">
             <h3 className="uppercase">Projects</h3>
             <h5>Personal Projects - on GitHub</h5>
