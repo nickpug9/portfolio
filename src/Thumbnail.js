@@ -1,4 +1,4 @@
-import React, { useState } from "react"; // Import the Component component from React
+import React from "react"; // Import the Component component from React
 import "./App.css";
 
 function Thumbnail(props) {
@@ -13,10 +13,14 @@ function Thumbnail(props) {
   //   }
   // };
   const ShowLink = () => {
-    console.log(props.showLink);
     if (props.showLink === "true") {
       return (
-        <a href={props.link} className="btn btn-success px-4 mb-3">
+        <a
+          href={props.link}
+          target="_blank"
+          rel="noreferrer"
+          className="btn btn-success px-4 mb-3"
+        >
           Visit Site
         </a>
       );

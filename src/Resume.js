@@ -3,7 +3,7 @@ import React from "react";
 function NewComponent(props) {
   return (
     <div className="resume container-fluid">
-      <div className="row col-10 col-md-10 mx-auto d-flex flex-wrap text-white">
+      <div className="row col-lg-10 mx-auto d-flex flex-wrap text-white">
         <h1 className="w-100 text-center">Resume</h1>
         <div className="resume-header__left">
           <h2>Nick Pugliesi</h2>
@@ -13,12 +13,22 @@ function NewComponent(props) {
           <h5 className=" text-white">Pittsburgh, PA</h5>
           <h5 className=" text-white">nickpug9@gmail.com</h5>
           <h5>
-            <a href="tel:2679872413" className="app-link">
+            <a
+              href="tel:2679872413"
+              target="_blank"
+              rel="noreferrer"
+              className="app-link"
+            >
               (267) 987-2413
             </a>
           </h5>
           <h5>
-            <a href="https://github.com/nickpug9" className="app-link">
+            <a
+              href="https://github.com/nickpug9"
+              target="_blank"
+              rel="noreferrer"
+              className="app-link"
+            >
               github.com/nickpug9
             </a>
           </h5>
@@ -30,7 +40,12 @@ function NewComponent(props) {
             <p>
               Various projects where I learned to use bootstrap, js, react, and
               custom wordpress theme development - 🔗
-              <a className="app-link" href="https://github.com/nickpug9">
+              <a
+                className="app-link"
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/nickpug9"
+              >
                 github.com/nickpug9
               </a>
             </p>

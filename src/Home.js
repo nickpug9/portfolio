@@ -9,12 +9,19 @@ import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
 
 function NewComponent(props) {
   return (
-    <div className="content-wrapper">
+    <div className="content-wrapper px-3">
+      <div className="bg">
+        <img
+          src="https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+          alt="coding"
+        />
+      </div>
+
       <div className="content py-3 text-white d-flex flex-column align-items-center mt-5">
         <h5 className="text-center">Hello, I am</h5>
         <h1>Nick Pugliesi</h1>
         <h4>Web Developer</h4>
-        <Link to="/about" className="arrow">
+        <Link to="/about" className="arrow app-link">
           <h5>
             Learn More About What I Do
             <span>
@@ -22,7 +29,12 @@ function NewComponent(props) {
             </span>
           </h5>
         </Link>
-        <a href="" className="github home-link link-dark">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/nickpug9"
+          className="github app-link"
+        >
           Visit My Github Page <FontAwesomeIcon icon={faGithubSquare} />
         </a>
       </div>

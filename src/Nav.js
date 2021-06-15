@@ -20,9 +20,13 @@ function NewComponent(props) {
   return (
     <div className="menu">
       <Navbar bg="dark" variant="dark" expand="lg">
-        {/* <Navbar.Brand href="/">
-          <img src={logo} className="img-fluid logo-image" alt="Logo" />
-        </Navbar.Brand> */}
+        <Navbar.Brand href="/">
+          <img
+            src="https://res.cloudinary.com/nickpug/image/upload/q_70/v1623780447/Personal/favicon.ico_srexgv.png"
+            className="img-fluid logo-image"
+            alt="Logo"
+          />
+        </Navbar.Brand>
         <Navbar.Toggle onClick={toggleNav} aria-controls="basic-navbar-nav" />
         <Navbar
           className={
@@ -31,7 +35,7 @@ function NewComponent(props) {
               : "app-nav navbar-collapse collapse show"
           }
         >
-          <Nav className=" app-nav">
+          <Nav className="app-nav">
             <Link to="/" onClick={toggleNav} className="nav-item nav-link">
               Home
             </Link>

@@ -6,8 +6,8 @@ function Projects(props) {
   return (
     // Render a Thumbnail component
     <div className="container-fluid p-0">
-      <div className="rows">
-        <h1 className="col-4 offset-4 text-center">Projects</h1>
+      <div className="rows px-3">
+        <h1 className="col-md-4 offset-md-4 text-center">Projects</h1>
         <h5 className="text-white px-3 col-md-6 offset-md-3">
           The following is a list of the most notable projects I have recently
           worked on.

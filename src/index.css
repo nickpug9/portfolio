@@ -104,7 +104,7 @@ h1 {
 }
 
 .logo-image {
-  width: 100px;
+  width: 50px;
 }
 /* .content-wrapper {
   display: flex;
@@ -306,6 +306,34 @@ h1 {
   position: absolute;
   background: var(--color-blue-light);
   border-radius: 15px;
+}
+
+.about-image-sports img,
+.about-image-music img {
+  object-fit: cover;
+  max-width: 200px;
+  margin: auto;
+  display: block;
+}
+.about-text-sports,
+.about-image-sports,
+.about-text-music,
+.about-image-music {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .about-text-sports,
+  .about-text-music {
+    width: 65%;
+  }
+  .about-image-sports,
+  .about-image-music {
+    width: 35%;
+  }
+}
+
+.about .profile {
+  max-width: 50%;
 }
 footer {
   z-index: 50;

@@ -2,13 +2,7 @@
 
 import React from "react";
 // Import the BrowserRouter, Route and Link components
-import {
-  BrowserRouter,
-  Switch,
-  Route,
-  Link,
-  withRouter,
-} from "react-router-dom";
+import { BrowserRouter, Switch, Route, withRouter } from "react-router-dom";
 
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import Nav from "./Nav.js";
