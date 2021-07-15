@@ -14,20 +14,21 @@ function NewComponent(props) {
         </div>
         <p>
           I am a Web Developer with 1.5 years of front-end experience and I am
-          interested in advancing my career in development. After completing my
-          undergraduate degree in Computer Science, I spent a year and a half
-          working as a Frontend Web Developer. Through my experience developing
-          Wordpress sites, I have become proficient with HTML, CSS, JavaScript
-          and disciplined with best SEO/optimization practices. Most notably, on
-          sites with outdated frameworks I improved the average page speed(40%)
-          and audited scores. The practical experience I have gained there has
-          only increased my desire to advance as a Web Developer. Additionally,
-          I have completed the highest rated Web Developer Bootcamp on Udemy
-          where I gained a fundamental understanding of Full Stack Development.
-          In my personal time, I have been learning about custom theme
-          development, databases, APIs, cloud hosting, and React. A few of my
-          personal projects where I put these acquired skills to the test are
-          available to view on both my{" "}
+          interested in advancing my career in development. I have completed my
+          undergraduate degree in Computer Science, at Penn State where I
+          learned OOP, C, and database management. I spent a year and a half
+          working as a Frontend Web Developer for a digital marketing company
+          for lawyers. Through my experience developing Wordpress sites, I have
+          become proficient with HTML, CSS, JavaScript and disciplined with best
+          SEO/optimization practices. Most notably, on sites with outdated
+          frameworks I improved the average page speed(40%) and audited scores.
+          The practical experience I have gained there has only increased my
+          desire to advance as a Web Developer. Additionally, I have completed
+          the highest rated Web Developer Bootcamp on Udemy where I gained a
+          fundamental understanding of Full Stack Development. In my personal
+          time, I have been learning about custom theme development, databases,
+          APIs, cloud hosting, and React. A few of my personal projects where I
+          put these acquired skills to the test are available to view on both my{" "}
           <a className="app-link" href="/projects">
             projects page
           </a>{" "}
@@ -43,17 +44,28 @@ function NewComponent(props) {
         </p>
         <h4>Hobbies</h4>
         <div className=" d-flex flex-column-reverse flex-md-row flex-wrap justify-between my-3">
+          <div className="about-interests">
+            <p>
+              When I'm not coding I enjoy getting outside whenever I can. My
+              girlfriend and I are always out on walks, visiting a museum or
+              checking out a local farmers market. We go out kayaking whenever
+              we get the chance and enjoy spending as much time as we can in the
+              sun.
+            </p>
+          </div>
           <div className="about-text-sports">
             <h5>Sports</h5>
             <p>
               I have a lot of interests that keep me going. Sports have been a
-              mainstay in my life since my early childhood. From winning my
-              little league homerun derby to playing in slow pitch softball
-              leagues, I find myself most relaxed in the batter's box.
+              mainstay in my life since my early childhood. Baseball for sure
+              has been an important part of my life. From winning my little
+              league homerun derby to playing in slow pitch softball leagues, I
+              find myself most relaxed in the batter's box.
             </p>
             <p>
-              I am a 4 for 4 Philadelphia sports diehard who is a former host of
-              Gritizens of Philadelphia and Barreled up on Board podcasts.
+              I have spent most of my life as a team player and it has shaped my
+              mindset to focus on not only my individual success but the success
+              of those around me.
             </p>
           </div>
           <div className="about-image-sports">
