@@ -13,7 +13,7 @@ function NewComponent(props) {
           />
         </div>
         <p>
-          I am a Web Developer with 1.5 years of front-end experience and I am
+          I am a Web Developer with 2 years of front-end experience and I am
           interested in advancing my career in development. I have completed my
           undergraduate degree in Computer Science, at Penn State where I
           learned OOP, C, and database management. I spent a year and a half
