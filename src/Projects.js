@@ -41,10 +41,10 @@ Pokedex emulates a fully functional virtual pokedex of the gen one pokemon. Buil
         />
 
         <Thumbnail
-          link="https://github.com/nickpug9/portfolio.git"
+          link="https://mlbtheshowmarketplace.live-website.com/"
           showLink="true"
           image="https://res.cloudinary.com/nickpug/image/upload/v1627948940/Personal/SharedScreenshot_qmycsp.jpg"
-          title="MLB Marketplace"
+          title="MLB: The Show Marketplace"
           category="app"
           description="This app is designed to help users earn the most stubs in MLB: The Show. IT retrieves data from MLB: The Show’s servers and lists them. After the api calls, the app calculates the biggest profit margins of each card. Users can sort through the lists and see which cards are the best to flip."
         />
