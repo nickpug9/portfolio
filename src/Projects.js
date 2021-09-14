@@ -22,7 +22,7 @@ function Projects(props) {
         />
 
         <Thumbnail
-          link="http://s868494329.onlinehome.us/"
+          link="https://pokedex.live-website.com/"
           showLink="true"
           image="https://res.cloudinary.com/nickpug/image/upload/q_70/v1623428702/Personal/pokedex-screenshot_bwonvq.jpg"
           title="Pokedex"
@@ -41,9 +41,9 @@ Pokedex emulates a fully functional virtual pokedex of the gen one pokemon. Buil
         />
 
         <Thumbnail
-          link=""
+          link="https://github.com/nickpug9/portfolio.git"
           showLink="true"
-          image=""
+          image="https://res.cloudinary.com/nickpug/image/upload/v1627948940/Personal/SharedScreenshot_qmycsp.jpg"
           title="MLB Marketplace"
           category="app"
           description="This app is designed to help users earn the most stubs in MLB: The Show. IT retrieves data from MLB: The Show’s servers and lists them. After the api calls, the app calculates the biggest profit margins of each card. Users can sort through the lists and see which cards are the best to flip."
