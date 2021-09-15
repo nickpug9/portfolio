@@ -22,6 +22,15 @@ function Projects(props) {
         />
 
         <Thumbnail
+          link="https://github.com/nickpug9/Number-Guesser/"
+          showLink="true"
+          image="https://res.cloudinary.com/nickpug/image/upload/v1631665856/number_guesser_lepprz.jpg"
+          title="Number Guesser"
+          category="App"
+          description="Number Guesser is a small console app built in .NET using C#. The program asks the user for their name and then it will ask for the user to guess the randomly generated number. The user will keep guessing until they guess correct. User has the option to play again or exit. This project was made during a code along to a video linked in the readme on GitHub. It serves as an introductory to properly set up and get to coding a .Net console application"
+        />
+
+        <Thumbnail
           link="https://pokedex.live-website.com/"
           showLink="true"
           image="https://res.cloudinary.com/nickpug/image/upload/q_70/v1623428702/Personal/pokedex-screenshot_bwonvq.jpg"
