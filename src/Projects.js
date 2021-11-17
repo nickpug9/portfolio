@@ -30,34 +30,7 @@ function Projects(props) {
           description="Number Guesser is a small console app built in .NET using C#. The program asks the user for their name and then it will ask for the user to guess the randomly generated number. The user will keep guessing until they guess correct. User has the option to play again or exit. This project was made during a code along to a video linked in the readme on GitHub. It serves as an introductory to properly set up and get to coding a .Net console application"
         />
 
-        <Thumbnail
-          link="https://pokedex.live-website.com/"
-          showLink="true"
-          image="https://res.cloudinary.com/nickpug/image/upload/q_70/v1623428702/Personal/pokedex-screenshot_bwonvq.jpg"
-          title="Pokedex"
-          category="App"
-          description="A website that uses StimulusJs and Animejs that emulates a virtual Pokedex.
-Pokedex emulates a fully functional virtual pokedex of the gen one pokemon. Built using StimulusJs this app uses various functions from AnimeJs to animate motions.
-"
-        />
-        <Thumbnail
-          link="https://github.com/nickpug9/nickpug"
-          showLink="true"
-          image=""
-          title="Custom Wordpress Theme"
-          category="Theme"
-          description="I have built a custom wordpress theme that utilizes Timber, TailwindCSS, and StimulusJs. The theme focuses on features that allow most of the content to be controlled in Wordpress’s admin. By implementing custom templates and ACF, every page/page type is able to have its own unique layouts and functionality. The theme is very beginner friendly. By using StimulusJs, which links Javascript components to the html, beginners are able to focus on html and use controllers to enhance it. Much of the backend tasks are automated by Gulp, including minification, and legacy. CI/CD pipelines are also set up."
-        />
-
-        <Thumbnail
-          link="https://mlbtheshowmarketplace.live-website.com/"
-          showLink="true"
-          image="https://res.cloudinary.com/nickpug/image/upload/v1627948940/Personal/SharedScreenshot_qmycsp.jpg"
-          title="MLB: The Show Marketplace"
-          category="app"
-          description="This app is designed to help users earn the most stubs in MLB: The Show. IT retrieves data from MLB: The Show’s servers and lists them. After the api calls, the app calculates the biggest profit margins of each card. Users can sort through the lists and see which cards are the best to flip."
-        />
-
+     
         <Thumbnail
           link="https://nickpug9.github.io/pricing-panel/"
           showLink="true"
@@ -74,14 +47,7 @@ Pokedex emulates a fully functional virtual pokedex of the gen one pokemon. Buil
           category="UX Design"
           description="Museum of candy is a simple responsive landing page. This also is one of the first projects that introduced me to bootstrap."
         />
-        <Thumbnail
-          link=""
-          showLink="false"
-          image=""
-          title="Picture Car Guys"
-          category="App"
-          description="Picture Car Guys is a directory of car listings to be used as movie props. Users would create accounts and use form submissions for listings. This was built using a car directory Wordpress theme before I learned backend programming and was my first experience in freelance work. The site is not currently live."
-        />
+    
       </div>
     </div>
   );
